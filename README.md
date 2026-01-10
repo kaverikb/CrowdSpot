@@ -253,5 +253,33 @@ These are excluded deliberately due to dataset limitations.
 * Cost-aware LLM usage with constrained prompts
 * Modular design allows future extension to real CCTV streams
 
+---
 
+## Design Trade-offs and Limitations
+
+This project makes several deliberate trade-offs to balance realism, explainability, and feasibility within the constraints of the dataset and assessment scope.
+
+### Static Images vs Video Streams
+
+The ShanghaiTech dataset consists of independent images rather than continuous video. As a result, the system treats each image as a standalone snapshot and does not model temporal continuity, motion patterns, or crowd flow. This limits the ability to detect movement-based behaviors but allows reliable density and anomaly analysis without misrepresenting the data.
+
+### Global Baseline vs Zone-Specific Baselines
+
+A single global baseline is computed across all images instead of maintaining per-zone or time-of-day baselines. This simplifies the anomaly detection logic and avoids overfitting to sparse data, at the cost of reduced location-specific sensitivity.
+
+### Statistical Anomaly Detection vs Learned Behavior Models
+
+Anomaly detection is based on statistical deviation (z-score) rather than trained behavioral models. This choice improves transparency, reduces false positives, and avoids black-box behavior, but does not capture complex semantic activities.
+
+### Density Bucketing vs Absolute Crowd Counts
+
+Crowd density levels (LOW / MEDIUM / HIGH) are derived relative to dataset statistics instead of absolute thresholds. This makes the system adaptive across datasets, but means density levels are comparative rather than universal.
+
+### LLM Summaries as Assistance, Not Decision Output
+
+The LLM is used strictly for summarization and context generation. It does not make decisions, predict intent, or recommend enforcement actions. This reduces operational risk and ensures that human officers remain the final decision-makers.
+
+### CSV-Based Storage vs Production Databases
+
+CSV files are used to store intermediate and final outputs for simplicity and inspectability. In a production system, these would be replaced with databases or streaming pipelines.
 
