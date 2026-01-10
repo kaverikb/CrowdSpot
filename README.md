@@ -253,13 +253,5 @@ These are excluded deliberately due to dataset limitations.
 * Cost-aware LLM usage with constrained prompts
 * Modular design allows future extension to real CCTV streams
 
----
 
-## Deliverables
-
-* Complete codebase
-* Streamlit dashboard
-* CSV outputs
-* Sample summaries and alerts
-* Architecture ready for real-world backend integration
 
