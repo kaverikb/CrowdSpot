@@ -1,166 +1,183 @@
 import streamlit as st
+import json
 import pandas as pd
 import plotly.graph_objects as go
 from pathlib import Path
-import os
-from dotenv import load_dotenv
-
-env_path = os.path.join(os.path.dirname(__file__), ".env")
-load_dotenv(env_path)
-api_key = os.getenv("OPENROUTER_API_KEY")
-
 
 st.set_page_config(page_title="CrowdSpot", layout="wide")
 st.title("CrowdSpot - Crowd Intelligence Dashboard")
 
+# Load alerts data
+alerts_file = Path("results/alerts_timeline.json")
+if not alerts_file.exists():
+    st.error("alerts_timeline.json not found. Run video processing first.")
+    st.stop()
 
-frames_df = pd.read_csv("results/frames.csv")
-anomalies_df = pd.read_csv("results/anomalies.csv")
+with open(alerts_file) as f:
+    data = json.load(f)
 
-alerts_df = None
-alerts_path = Path("results/alerts.csv")
-if alerts_path.exists() and alerts_path.stat().st_size > 0:
-    alerts_df = pd.read_csv(alerts_path)
+baseline = data.get("baseline", 0)
+peak = data.get("peak", 0)
+alerts = data.get("alerts", [])
 
-baselines = pd.read_csv("data/baselines.csv")
-baseline_mean = baselines.loc[
-    baselines["metric"] == "baseline_mean", "value"
-].values[0]
-baseline_std = baselines.loc[
-    baselines["metric"] == "baseline_std", "value"
-].values[0]
+# Convert to DataFrame for easier manipulation
+alerts_df = pd.DataFrame(alerts)
+if len(alerts_df) > 0:
+    alerts_df["count"] = alerts_df["count"].astype(int)
+    alerts_df["deviation"] = ((alerts_df["count"] - baseline) / baseline * 100).round(2)
+else:
+    alerts_df = pd.DataFrame()
 
+#Metrics
+st.subheader("Operational Metrics")
 
-# Store full path internally, but expose clean ID to UI
-frames_df["image_id_clean"] = frames_df["image_id"].apply(
-    lambda x: os.path.basename(x)
-)
+col1, col2, col3, col4 = st.columns(4)
 
-all_image_ids = sorted(frames_df["image_id_clean"].unique())
+with col1:
+    st.metric("Baseline", f"{baseline:.0f} people")
 
+with col2:
+    st.metric("Peak", f"{peak:.0f} people")
 
-st.subheader("Zone Overview")
+with col3:
+    st.metric("Total Alerts", len(alerts))
 
-zone_stats = []
-for img_id in all_image_ids[:10]:  # show first 10 only
-    zone_data = frames_df[frames_df["image_id_clean"] == img_id]
+with col4:
+    avg_count = alerts_df["count"].mean() if len(alerts_df) > 0 else baseline
+    st.metric("Avg Count", f"{avg_count:.0f} people")
 
-    density_level = zone_data["density_level"].iloc[0]
+st.divider()
 
-    alert_count = 0
-    if alerts_df is not None:
-        alert_count = len(
-            alerts_df[alerts_df["zone"].str.contains(img_id, na=False)]
+#Charts
+st.subheader("Analysis Charts")
+
+chart_col1, chart_col2 = st.columns(2)
+
+# Chart 1: Count over time
+with chart_col1:
+    if len(alerts_df) > 0:
+        fig1 = go.Figure()
+        fig1.add_trace(go.Scatter(
+            x=alerts_df["timestamp"],
+            y=alerts_df["count"],
+            mode="lines+markers",
+            name="Count",
+            line=dict(color="blue", width=2),
+            marker=dict(size=6)
+        ))
+        fig1.add_hline(y=baseline, line_dash="dash", line_color="green", annotation_text="Baseline")
+        fig1.add_hline(y=peak, line_dash="dash", line_color="red", annotation_text="Peak")
+        fig1.update_layout(
+            title="Crowd Count Over Time",
+            xaxis_title="Time (seconds)",
+            yaxis_title="Count",
+            hovermode="x unified"
         )
+        st.plotly_chart(fig1, use_container_width=True)
+    else:
+        st.info("No alert data to chart")
 
-    zone_stats.append({
-        "Zone": img_id,
-        "Density": density_level,
-        "Trend": "→",  # static images, no temporal trend
-        "Alerts": alert_count
-    })
+# Chart 2: Deviation trend
+with chart_col2:
+    if len(alerts_df) > 0:
+        fig2 = go.Figure()
+        fig2.add_trace(go.Scatter(
+            x=alerts_df["timestamp"],
+            y=alerts_df["deviation"],
+            fill="tozeroy",
+            name="Deviation %",
+            line=dict(color="orange"),
+            fillcolor="rgba(255, 165, 0, 0.3)"
+        ))
+        fig2.add_hline(y=0, line_dash="dash", line_color="gray")
+        fig2.update_layout(
+            title="Deviation from Baseline (%)",
+            xaxis_title="Time (seconds)",
+            yaxis_title="Deviation %",
+            hovermode="x unified"
+        )
+        st.plotly_chart(fig2, use_container_width=True)
+    else:
+        st.info("No alert data to chart")
 
-st.dataframe(pd.DataFrame(zone_stats), use_container_width=True)
+st.divider()
 
+#Alert Notif
+st.subheader("Alert Notifications")
 
-st.subheader("Density Distribution")
-
-fig = go.Figure()
-fig.add_trace(go.Histogram(
-    x=frames_df["global_density"],
-    nbinsx=50,
-    marker_color="rgba(0, 150, 255, 0.7)"
-))
-
-fig.add_vline(
-    x=baseline_mean,
-    line_dash="dash",
-    line_color="green",
-    annotation_text="Baseline"
-)
-fig.add_vline(
-    x=baseline_mean + baseline_std,
-    line_dash="dash",
-    line_color="orange"
-)
-fig.add_vline(
-    x=baseline_mean - baseline_std,
-    line_dash="dash",
-    line_color="orange"
-)
-
-fig.update_layout(
-    title="Global Density Distribution vs Baseline",
-    xaxis_title="Global Density",
-    yaxis_title="Frame Count"
-)
-
-st.plotly_chart(fig, use_container_width=True)
-
-
-st.subheader("Active Alerts")
-
-if alerts_df is not None and len(alerts_df) > 0:
-    for _, alert in alerts_df.head(10).iterrows():
-        col1, col2, col3 = st.columns(3)
-
-        with col1:
-            icon = {"HIGH": "🔴", "MEDIUM": "🟡", "LOW": "🟢"}.get(
-                alert["severity"], "⚪"
-            )
-            st.write(f"{icon} **{alert['severity']}**")
-
-        with col2:
-            st.write(alert["zone"])
-
-        with col3:
-            st.write(f"{int(alert['person_count'])} people")
-
-        st.caption(alert.get("operator_note", ""))
-        st.divider()
+if len(alerts) > 0:
+    latest_alert = alerts[0]
+    
+    col1, col2 = st.columns(2)
+    
+    # Control Room Notification
+    with col1:
+        st.write("**Control Room Notification**")
+        with st.container(border=True):
+            st.write(f"🚨 **ALERT**")
+            st.write(f"Timestamp: {latest_alert['timestamp']:.2f}s")
+            st.write(f"Location: Shibuya Crossing")
+            st.write(f"Count: {latest_alert['count']} people")
+            st.write(f"Deviation: {((latest_alert['count'] - baseline) / baseline * 100):.2f}%")
+            st.write(f"Status: ⚠️ Monitor")
+    
+    # Patrol Unit Notification
+    with col2:
+        st.write("**Nearest Patrol Unit Alert**")
+        with st.container(border=True):
+            st.write(f"📡 **DISPATCH**")
+            st.write(f"Unit ID: PATROL_001")
+            st.write(f"Location: Shibuya Crossing")
+            st.write(f"Priority: MEDIUM")
+            st.write(f"Action: Investigate crowd surge")
+            st.write(f"ETA: 5 minutes")
 else:
     st.info("No active alerts")
 
-#summary
-st.subheader("Generate Summary")
+#Alert Timeline
+st.subheader("Alert Timeline")
 
-selected_image = st.selectbox(
-    "Select Image ID (type to search)",
-    all_image_ids
-)
-
-if st.button("Generate Summary"):
-    if not api_key:
-        st.error("OPENROUTER_API_KEY not found in .env")
-    else:
-        try:
-            from src.rag import RAGSummary
-
-            zone_data = frames_df[
-                frames_df["image_id_clean"] == selected_image
-            ]
-
-            current_density = zone_data["person_count"].iloc[0]
-            density_level = zone_data["density_level"].iloc[0]
-
-            z_score = (
-                (current_density - baseline_mean) / baseline_std
-                if baseline_std > 0 else 0
-            )
-
-            rag = RAGSummary(api_key=api_key)
-            summary = rag.generate_summary(
-    selected_image,
-    person_count=zone_data["person_count"].iloc[0],
-    density_level=zone_data["density_level"].iloc[0],
-    baseline_mean=baseline_mean,
-    baseline_std=baseline_std,
-    z_score=z_score
-)
-
-
-
-            st.success(summary)
-
-        except Exception as e:
-            st.error(f"Error generating summary: {str(e)}")
+if len(alerts_df) > 0:
+    # Display as table
+    display_df = alerts_df[["timestamp", "count", "deviation"]].copy()
+    display_df["timestamp"] = display_df["timestamp"].round(2)
+    display_df.columns = ["Time (s)", "Count", "Deviation (%)"]
+    
+    st.dataframe(display_df, use_container_width=True, hide_index=True)
+    
+    st.write("**Alert Details:**")
+    
+    # Pagination
+    if "alerts_shown" not in st.session_state:
+        st.session_state.alerts_shown = 10
+    
+    # Display alerts in batches
+    for idx in range(min(st.session_state.alerts_shown, len(alerts))):
+        alert = alerts[idx]
+        with st.expander(f"Alert {idx + 1} - {alert['timestamp']:.2f}s"):
+            col1, col2 = st.columns(2)
+            
+            with col1:
+                st.write(f"**Frame:** {alert['frame']}")
+                st.write(f"**Count:** {alert['count']} people")
+                st.write(f"**Deviation:** {((alert['count'] - baseline) / baseline * 100):.2f}%")
+            
+            with col2:
+                pattern = alert.get("pattern", {})
+                st.write(f"**Baseline:** {pattern.get('avg_people', 'N/A')}")
+                st.write(f"**Peak:** {pattern.get('peak_people', 'N/A')}")
+                st.write(f"**Source:** {pattern.get('baseline_source', 'N/A')}")
+            
+            st.write(f"**LLM Summary:**")
+            st.write(alert.get("llm", "N/A"))
+    
+    # See more button
+    if st.session_state.alerts_shown < len(alerts):
+        if st.button("See More Alerts"):
+            st.session_state.alerts_shown += 10
+            st.rerun()
+    
+    if st.session_state.alerts_shown >= len(alerts):
+        st.caption(f"Showing all {len(alerts)} alerts")
+else:
+    st.info("No alerts detected. Crowd remained within normal parameters.")

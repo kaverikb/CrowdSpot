@@ -1,0 +1,2932 @@
+{
+  "baseline": 23.966666666666665,
+  "peak": 27,
+  "alerts": [
+    {
+      "timestamp": 0.66,
+      "frame": 33,
+      "count": 27,
+      "llm": "Shibuya Crossing observed count is 27 with low density, showing a moderately above normal deviation, suggesting heightened activity; recommend monitoring for potential fluctuations.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 0.84,
+      "frame": 42,
+      "count": 27,
+      "llm": "Shibuya Crossing observed count of 27 is moderately above normal with low density; maintain situational awareness and monitor for potential escalation.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 0.94,
+      "frame": 47,
+      "count": 28,
+      "llm": "Shibuya Crossing observed count of 28 indicates low density but is moderately above normal, suggesting slight deviation from expected activity; recommend continued monitoring for any escalation.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 28,
+        "deviation_percent": 16.828929068150217,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 0.98,
+      "frame": 49,
+      "count": 28,
+      "llm": "Shibuya Crossing observed 28 individuals with low density, showing a moderate deviation above normal; recommend monitoring for any unusual activity.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 28,
+        "deviation_percent": 16.828929068150217,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 1.0,
+      "frame": 50,
+      "count": 28,
+      "llm": "Shibuya Crossing observed a count of 28 individuals, indicating a low density, with a moderate deviation above the normal expected range for this period.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 28,
+        "deviation_percent": 16.828929068150217,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 1.02,
+      "frame": 51,
+      "count": 27,
+      "llm": "Shibuya Crossing observed 27 individuals with low density, showing a moderate deviation above normal; recommend maintaining routine patrol presence to monitor for any emerging trends.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 1.04,
+      "frame": 52,
+      "count": 27,
+      "llm": "Shibuya Crossing observed 27 individuals during patrol with low density, showing a moderately above-normal deviation from typical activity levels. Situation remains calm and no immediate operational concerns noted.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 1.06,
+      "frame": 53,
+      "count": 27,
+      "llm": "Shibuya Crossing observed 27 individuals with low density, showing a moderate deviation above the expected normal activity level; recommend continued monitoring for situational awareness.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 1.08,
+      "frame": 54,
+      "count": 27,
+      "llm": "Shibuya Crossing observed 27 individuals with low density, indicating a moderate deviation above normal activity; maintain vigilance and monitor for potential crowd fluctuations.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 1.1,
+      "frame": 55,
+      "count": 28,
+      "llm": "Shibuya Crossing observed 28 individuals with low density, showing a moderately above normal deviation; patrols should monitor for any unusual activity while maintaining routine surveillance.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 28,
+        "deviation_percent": 16.828929068150217,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 1.18,
+      "frame": 59,
+      "count": 27,
+      "llm": "Shibuya Crossing observed count of 27 is moderately above normal with low density, suggesting increased activity warranting closer monitoring.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 1.22,
+      "frame": 61,
+      "count": 28,
+      "llm": "Shibuya Crossing observed 28 individuals with low density, showing a moderately above normal deviation; recommend monitoring for any unusual activity.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 28,
+        "deviation_percent": 16.828929068150217,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 1.24,
+      "frame": 62,
+      "count": 28,
+      "llm": "Shibuya Crossing observed 28 individuals with low density, moderately above normal; no immediate issues noted, but increased monitoring recommended.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 28,
+        "deviation_percent": 16.828929068150217,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 1.42,
+      "frame": 71,
+      "count": 28,
+      "llm": "Shibuya Crossing observed 28 individuals with low density, moderately above normal; no immediate concerns but warrants continued monitoring.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 28,
+        "deviation_percent": 16.828929068150217,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 1.44,
+      "frame": 72,
+      "count": 27,
+      "llm": "Shibuya Crossing observed 27 individuals, indicating low crowd density but moderately above the normal deviation for this area.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 1.46,
+      "frame": 73,
+      "count": 27,
+      "llm": "Shibuya Crossing observed a count of 27 individuals, with low density but a moderately above-normal deviation, suggesting increased activity; maintain situational awareness and monitor for potential anomalies.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 1.48,
+      "frame": 74,
+      "count": 27,
+      "llm": "Shibuya Crossing observed 27 individuals with low density, showing a moderately above normal deviation; recommend monitoring for any unusual activity.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 1.58,
+      "frame": 79,
+      "count": 30,
+      "llm": "Patrol supervisor: Shibuya Crossing observed count is 30, indicating low density with a moderate deviation above normal\u2014recommend monitoring for increased activity or potential crowd management needs.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 30,
+        "deviation_percent": 25.17385257301809,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 1.6,
+      "frame": 80,
+      "count": 31,
+      "llm": "\"At Shibuya Crossing, observed count was 31 with low density, showing a moderate deviation above normal. Conditions remain manageable with no immediate concerns.\"",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 31,
+        "deviation_percent": 29.346314325452028,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 1.62,
+      "frame": 81,
+      "count": 30,
+      "llm": "Shibuya Crossing observed 30 individuals with low density, moderately above normal deviation; recommend continued monitoring for situational awareness.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 30,
+        "deviation_percent": 25.17385257301809,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 1.64,
+      "frame": 82,
+      "count": 30,
+      "llm": "Shibuya Crossing observed a count of 30 individuals with low density, showing a moderate deviation above normal levels; recommend continued monitoring to assess trends.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 30,
+        "deviation_percent": 25.17385257301809,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 1.74,
+      "frame": 87,
+      "count": 29,
+      "llm": "Shibuya Crossing observed 29 individuals with low density, showing a moderately above-normal deviation; recommend monitoring for any significant changes or potential crowd buildup.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 29,
+        "deviation_percent": 21.001390820584152,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 1.76,
+      "frame": 88,
+      "count": 29,
+      "llm": "Shibuya Crossing observed count is 29 with low density, showing a moderate deviation above normal; maintain awareness and monitor for any changes.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 29,
+        "deviation_percent": 21.001390820584152,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 1.78,
+      "frame": 89,
+      "count": 29,
+      "llm": "Shibuya Crossing observed 29 individuals with low density, showing a moderately above-normal deviation in foot traffic; routine patrol advised to monitor for any unusual activity.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 29,
+        "deviation_percent": 21.001390820584152,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 1.8,
+      "frame": 90,
+      "count": 29,
+      "llm": "\"Patrol observed 29 individuals at Shibuya Crossing, indicating low density with a moderately above-normal deviation. Situation remains operational with no immediate concerns.\"",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 29,
+        "deviation_percent": 21.001390820584152,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 1.98,
+      "frame": 99,
+      "count": 32,
+      "llm": "Shibuya Crossing observed count is 32 with medium density, moderately above normal; monitor for potential crowd control needs.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 32,
+        "deviation_percent": 33.51877607788597,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 2.0,
+      "frame": 100,
+      "count": 33,
+      "llm": "Shibuya Crossing observed count of 33 is significantly above normal with medium density; recommend monitoring and potential crowd control measures if trend continues.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 33,
+        "deviation_percent": 37.6912378303199,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 2.02,
+      "frame": 101,
+      "count": 33,
+      "llm": "\"Patrol alert: Shibuya Crossing observed count of 33 with low density, significantly above normal. Recommend increased monitoring for potential anomalies.\"",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 33,
+        "deviation_percent": 37.6912378303199,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 2.04,
+      "frame": 102,
+      "count": 35,
+      "llm": "Shibuya Crossing observed a significantly above-normal crowd count of 35 with medium density, requiring heightened attention and crowd management measures.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 35,
+        "deviation_percent": 46.03616133518777,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 2.06,
+      "frame": 103,
+      "count": 32,
+      "llm": "\"At Shibuya Crossing, observed count is 32 with low density, moderately above normal deviation. Situation is under control but warrants continued monitoring.\"",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 32,
+        "deviation_percent": 33.51877607788597,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 2.08,
+      "frame": 104,
+      "count": 32,
+      "llm": "Shibuya Crossing observed count of 32 indicates low density with a moderate deviation above normal; recommend routine monitoring for potential escalation.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 32,
+        "deviation_percent": 33.51877607788597,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 2.1,
+      "frame": 105,
+      "count": 32,
+      "llm": "Shibuya Crossing observed 32 individuals, indicating low density but a moderate deviation above normal; recommend monitoring for potential crowd fluctuations.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 32,
+        "deviation_percent": 33.51877607788597,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 2.12,
+      "frame": 106,
+      "count": 33,
+      "llm": "Shibuya Crossing observed a count of 33 individuals with low density, registering a moderately above-normal deviation; monitor for any changes or potential congestion.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 33,
+        "deviation_percent": 37.6912378303199,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 2.14,
+      "frame": 107,
+      "count": 33,
+      "llm": "Shibuya Crossing observed 33 individuals with low density, indicating a moderate deviation above normal; recommend continued monitoring for situational awareness.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 33,
+        "deviation_percent": 37.6912378303199,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 2.16,
+      "frame": 108,
+      "count": 33,
+      "llm": "Shibuya Crossing observed count of 33 indicates low density but is moderately above normal; recommend monitoring for potential crowd buildup.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 33,
+        "deviation_percent": 37.6912378303199,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 2.18,
+      "frame": 109,
+      "count": 33,
+      "llm": "Shibuya Crossing observed 33 individuals with low density, showing a moderate deviation above normal; no immediate concerns but warrants continued monitoring.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 33,
+        "deviation_percent": 37.6912378303199,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 2.2,
+      "frame": 110,
+      "count": 33,
+      "llm": "Shibuya Crossing observed 33 individuals with low density, showing a moderate deviation above normal; no immediate concerns but warrants continued monitoring.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 33,
+        "deviation_percent": 37.6912378303199,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 2.22,
+      "frame": 111,
+      "count": 31,
+      "llm": "\"Patrol observed 31 individuals at Shibuya Crossing, with low density and a moderate deviation above normal. Situation remains under control with no immediate concerns.\"",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 31,
+        "deviation_percent": 29.346314325452028,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 2.24,
+      "frame": 112,
+      "count": 31,
+      "llm": "Shibuya Crossing observed 31 individuals with low density, showing a moderate deviation above normal activity; monitoring remains advised to assess trends.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 31,
+        "deviation_percent": 29.346314325452028,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 2.26,
+      "frame": 113,
+      "count": 31,
+      "llm": "Shibuya Crossing observed count of 31 indicates low density with a moderate deviation above normal, suggesting slightly elevated activity in the area.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 31,
+        "deviation_percent": 29.346314325452028,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 2.28,
+      "frame": 114,
+      "count": 31,
+      "llm": "Shibuya Crossing observed a moderately above-normal count of 31 individuals with low density, indicating a slight deviation from expected activity levels.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 31,
+        "deviation_percent": 29.346314325452028,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 2.3,
+      "frame": 115,
+      "count": 30,
+      "llm": "Shibuya Crossing shows an observed count of 30 with low density, indicating a moderate deviation above normal; recommend monitoring for potential crowding trends.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 30,
+        "deviation_percent": 25.17385257301809,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 2.32,
+      "frame": 116,
+      "count": 29,
+      "llm": "Shibuya Crossing observed count is 29 with low density, operating within normal range.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 29,
+        "deviation_percent": 21.001390820584152,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 2.34,
+      "frame": 117,
+      "count": 30,
+      "llm": "Shibuya Crossing observed count is 30, with low density and a moderately above-normal deviation; recommend monitoring for potential crowd buildup.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 30,
+        "deviation_percent": 25.17385257301809,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 2.36,
+      "frame": 118,
+      "count": 30,
+      "llm": "Shibuya Crossing observed a count of 30 individuals with low density, showing a moderate deviation above normal levels; recommend continued monitoring for potential crowd escalation.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 30,
+        "deviation_percent": 25.17385257301809,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 2.38,
+      "frame": 119,
+      "count": 27,
+      "llm": "Shibuya Crossing observed count is 27 with low density, and deviation is within normal range; no immediate action required.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 2.4,
+      "frame": 120,
+      "count": 27,
+      "llm": "Shibuya Crossing observed count is 27 with low density, and activity is within normal range; no anomalies detected.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 2.42,
+      "frame": 121,
+      "count": 27,
+      "llm": "Shibuya Crossing observed count is 27 with low density, operating within normal parameters; no deviations detected.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 2.44,
+      "frame": 122,
+      "count": 27,
+      "llm": "\"Patrol observed 27 individuals at Shibuya Crossing, with low density and activity within normal range. No deviations or issues to report.\"",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 2.46,
+      "frame": 123,
+      "count": 27,
+      "llm": "Shibuya Crossing observed count of 27 indicates low density with no significant deviations, maintaining normal operational conditions for patrol teams.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 2.5,
+      "frame": 125,
+      "count": 27,
+      "llm": "Shibuya Crossing observed a pedestrian count of 27 with low density, consistent with normal operational parameters.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 2.52,
+      "frame": 126,
+      "count": 27,
+      "llm": "Patrol observed 27 individuals at Shibuya Crossing with low density; activity remains within normal operational parameters.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 2.54,
+      "frame": 127,
+      "count": 30,
+      "llm": "Shibuya Crossing observed count of 30 indicates low density but moderately above normal deviation, suggesting increased activity requiring attention.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 30,
+        "deviation_percent": 25.17385257301809,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 2.56,
+      "frame": 128,
+      "count": 30,
+      "llm": "Shibuya Crossing observed 30 individuals with low density, showing a moderate deviation above normal; no immediate concerns but warrants continued monitoring.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 30,
+        "deviation_percent": 25.17385257301809,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 2.58,
+      "frame": 129,
+      "count": 31,
+      "llm": "\"At Shibuya Crossing, observed count is 31 with low density, showing a moderate deviation above normal. Conditions remain manageable with no immediate concerns.\"",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 31,
+        "deviation_percent": 29.346314325452028,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 2.6,
+      "frame": 130,
+      "count": 32,
+      "llm": "Shibuya Crossing observed count of 32 indicates low density with a moderate deviation above normal; recommend monitoring for potential fluctuations.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 32,
+        "deviation_percent": 33.51877607788597,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 2.7,
+      "frame": 135,
+      "count": 29,
+      "llm": "At Shibuya Crossing, the observed count was 29 with a low density, and the deviation remains within the normal operational range.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 29,
+        "deviation_percent": 21.001390820584152,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 2.72,
+      "frame": 136,
+      "count": 29,
+      "llm": "Shibuya Crossing observed count of 29 is within normal range, with density remaining low; no anomalies detected.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 29,
+        "deviation_percent": 21.001390820584152,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 2.74,
+      "frame": 137,
+      "count": 29,
+      "llm": "Shibuya Crossing observed count is 29 with low density, and activity is within normal range; no anomalies detected.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 29,
+        "deviation_percent": 21.001390820584152,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 2.76,
+      "frame": 138,
+      "count": 29,
+      "llm": "Shibuya Crossing patrol observed 29 individuals with low density, indicating activity remains within normal operational parameters.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 29,
+        "deviation_percent": 21.001390820584152,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 2.78,
+      "frame": 139,
+      "count": 29,
+      "llm": "Shibuya Crossing observed count is 29 with low density, operating within normal parameters. No deviations or issues reported.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 29,
+        "deviation_percent": 21.001390820584152,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 2.8,
+      "frame": 140,
+      "count": 28,
+      "llm": "Shibuya Crossing observed count is 28, with low density and activity within normal range; no notable deviations reported.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 28,
+        "deviation_percent": 16.828929068150217,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 2.82,
+      "frame": 141,
+      "count": 29,
+      "llm": "Shibuya Crossing observed count of 29 indicates low density, with activity well within normal range for the area.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 29,
+        "deviation_percent": 21.001390820584152,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 2.84,
+      "frame": 142,
+      "count": 29,
+      "llm": "Shibuya Crossing observed count is 29, with low density and deviation within normal range; no immediate issues noted.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 29,
+        "deviation_percent": 21.001390820584152,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 2.86,
+      "frame": 143,
+      "count": 29,
+      "llm": "Shibuya Crossing patrol observed a count of 29 with low density, remaining within normal operational range.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 29,
+        "deviation_percent": 21.001390820584152,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 2.88,
+      "frame": 144,
+      "count": 29,
+      "llm": "Shibuya Crossing observed count of 29 indicates low density, with deviation remaining within normal operational parameters.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 29,
+        "deviation_percent": 21.001390820584152,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 2.9,
+      "frame": 145,
+      "count": 29,
+      "llm": "Shibuya Crossing observed count is 29 with low density; situation is within normal range, no deviations detected.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 29,
+        "deviation_percent": 21.001390820584152,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 2.92,
+      "frame": 146,
+      "count": 29,
+      "llm": "Patrol observed 29 individuals at Shibuya Crossing with low density, consistent within normal operational parameters.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 29,
+        "deviation_percent": 21.001390820584152,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 2.94,
+      "frame": 147,
+      "count": 28,
+      "llm": "Shibuya Crossing observed count is 28 with low density, and all activity is within normal range; no deviations or issues reported.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 28,
+        "deviation_percent": 16.828929068150217,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 2.96,
+      "frame": 148,
+      "count": 28,
+      "llm": "Shibuya Crossing observed count was 28 with low density, remaining within normal operational range.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 28,
+        "deviation_percent": 16.828929068150217,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 2.98,
+      "frame": 149,
+      "count": 28,
+      "llm": "Shibuya Crossing observed count of 28 indicates low density, with deviation remaining within normal operational range.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 28,
+        "deviation_percent": 16.828929068150217,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 3.0,
+      "frame": 150,
+      "count": 29,
+      "llm": "Shibuya Crossing observed count of 29 indicates low density, with deviation within the normal operational range.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 29,
+        "deviation_percent": 21.001390820584152,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 3.02,
+      "frame": 151,
+      "count": 31,
+      "llm": "Shibuya Crossing observed a count of 31 with low density, exhibiting a moderate deviation above normal levels; increased patrol vigilance recommended.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 31,
+        "deviation_percent": 29.346314325452028,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 3.04,
+      "frame": 152,
+      "count": 31,
+      "llm": "Shibuya Crossing observed a moderately above-normal count of 31 individuals with low density, suggesting increased activity without overcrowding; recommend continued monitoring to ensure orderly conditions.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 31,
+        "deviation_percent": 29.346314325452028,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 3.06,
+      "frame": 153,
+      "count": 31,
+      "llm": "Shibuya Crossing observed 31 individuals with low density, showing a moderately above normal deviation; recommend monitoring for potential crowd shifts.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 31,
+        "deviation_percent": 29.346314325452028,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 3.08,
+      "frame": 154,
+      "count": 30,
+      "llm": "Shibuya Crossing observed 30 individuals with low density, showing a moderate deviation above normal; no immediate concerns but warrants continued monitoring.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 30,
+        "deviation_percent": 25.17385257301809,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 3.1,
+      "frame": 155,
+      "count": 28,
+      "llm": "Shibuya Crossing observed a pedestrian count of 28 with low density, remaining within normal operational parameters. No deviations or concerns noted.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 28,
+        "deviation_percent": 16.828929068150217,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 3.12,
+      "frame": 156,
+      "count": 29,
+      "llm": "\"Patrol observed 29 individuals at Shibuya Crossing, with low density and no deviations outside normal range. Situation remains stable and under control.\"",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 29,
+        "deviation_percent": 21.001390820584152,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 3.14,
+      "frame": 157,
+      "count": 29,
+      "llm": "Shibuya Crossing observed 29 individuals with low density, remaining within normal operational parameters.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 29,
+        "deviation_percent": 21.001390820584152,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 3.16,
+      "frame": 158,
+      "count": 29,
+      "llm": "Shibuya Crossing observed 29 individuals with low density and activity levels within normal operational range.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 29,
+        "deviation_percent": 21.001390820584152,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 3.8,
+      "frame": 190,
+      "count": 27,
+      "llm": "Shibuya Crossing observed count is 27 with low density, and activity is within normal range; no anomalies detected.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 3.82,
+      "frame": 191,
+      "count": 27,
+      "llm": "Shibuya Crossing observed count is 27 with low density, and activity is within normal range. No immediate concerns noted.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 3.84,
+      "frame": 192,
+      "count": 28,
+      "llm": "Shibuya Crossing observed count of 28 indicates low density, with no significant deviation from normal patterns.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 28,
+        "deviation_percent": 16.828929068150217,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 3.86,
+      "frame": 193,
+      "count": 27,
+      "llm": "The observed count of 27 at Shibuya Crossing is within the normal range, indicating low density and no significant deviations requiring immediate action.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 3.88,
+      "frame": 194,
+      "count": 29,
+      "llm": "Shibuya Crossing observed a low density of 29 individuals, with counts remaining within the normal operational range without any notable deviations.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 29,
+        "deviation_percent": 21.001390820584152,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 3.9,
+      "frame": 195,
+      "count": 27,
+      "llm": "Shibuya Crossing observed count of 27 indicates low density, with no significant deviation from normal activity levels; all operations remain within expected parameters.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 3.92,
+      "frame": 196,
+      "count": 27,
+      "llm": "Shibuya Crossing observed count is 27 with low density, operating within normal parameters; no deviations detected.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 3.94,
+      "frame": 197,
+      "count": 27,
+      "llm": "Shibuya Crossing observed count is 27, indicating low density with deviation within normal range; no operational concerns identified.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 3.96,
+      "frame": 198,
+      "count": 27,
+      "llm": "Shibuya Crossing observed count is 27 with low density, operating within normal parameters; no deviations or issues reported.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 3.98,
+      "frame": 199,
+      "count": 27,
+      "llm": "Shibuya Crossing observed count of 27 indicates low density with deviation within normal range, suggesting standard operational conditions.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 4.0,
+      "frame": 200,
+      "count": 27,
+      "llm": "Shibuya Crossing observed 27 individuals with low density; activity is within normal range for the area.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 4.02,
+      "frame": 201,
+      "count": 27,
+      "llm": "Shibuya Crossing observed 27 individuals with low density, consistent with normal activity levels; no deviations or concerns noted.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 4.04,
+      "frame": 202,
+      "count": 27,
+      "llm": "Shibuya Crossing observed count of 27 indicates low density, with deviation within normal range; no anomalies reported.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 4.06,
+      "frame": 203,
+      "count": 27,
+      "llm": "Shibuya Crossing observed count of 27 indicates low density, with deviation within normal range; no immediate action required.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 4.08,
+      "frame": 204,
+      "count": 28,
+      "llm": "Shibuya Crossing observed with a count of 28, density remains low, and activity is within normal operational parameters.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 28,
+        "deviation_percent": 16.828929068150217,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 4.1,
+      "frame": 205,
+      "count": 27,
+      "llm": "Shibuya Crossing observed a count of 27 individuals with low density, and the deviation remains within normal operational range.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 4.12,
+      "frame": 206,
+      "count": 28,
+      "llm": "\"Patrol observed 28 individuals at Shibuya Crossing, with low density and activity within normal range. No deviations or incidents to report.\"",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 28,
+        "deviation_percent": 16.828929068150217,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 4.14,
+      "frame": 207,
+      "count": 28,
+      "llm": "\"Patrol observed 28 individuals at Shibuya Crossing, with low density and activity within normal range. No deviations or issues to report.\"",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 28,
+        "deviation_percent": 16.828929068150217,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 4.16,
+      "frame": 208,
+      "count": 28,
+      "llm": "Shibuya Crossing observed count is 28, with low density and deviation within normal range\u2014no immediate concerns noted.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 28,
+        "deviation_percent": 16.828929068150217,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 4.18,
+      "frame": 209,
+      "count": 29,
+      "llm": "Shibuya Crossing observed count is 29 with low density, currently within normal operational range. No immediate concerns or deviations noted.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 29,
+        "deviation_percent": 21.001390820584152,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 4.2,
+      "frame": 210,
+      "count": 28,
+      "llm": "Shibuya Crossing observed count is 28 with low density, and deviation is within normal range; no operational concerns noted.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 28,
+        "deviation_percent": 16.828929068150217,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 4.94,
+      "frame": 247,
+      "count": 29,
+      "llm": "Shibuya Crossing observed count of 29 indicates medium density, with activity remaining within normal operational parameters.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 29,
+        "deviation_percent": 21.001390820584152,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 4.96,
+      "frame": 248,
+      "count": 29,
+      "llm": "Shibuya Crossing observed count is 29 with low density, and the deviation is within normal range. No operational concerns noted.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 29,
+        "deviation_percent": 21.001390820584152,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 4.98,
+      "frame": 249,
+      "count": 29,
+      "llm": "Shibuya Crossing observed count is 29 with low density, and the deviation is within normal range.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 29,
+        "deviation_percent": 21.001390820584152,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 5.0,
+      "frame": 250,
+      "count": 28,
+      "llm": "Shibuya Crossing observed count of 28 aligns with low density levels, remaining within normal operational range for this location.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 28,
+        "deviation_percent": 16.828929068150217,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 5.02,
+      "frame": 251,
+      "count": 29,
+      "llm": "Shibuya Crossing observed count is 29 with low density, and deviation remains within normal range. No immediate operational concerns noted.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 29,
+        "deviation_percent": 21.001390820584152,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 5.04,
+      "frame": 252,
+      "count": 28,
+      "llm": "Shibuya Crossing observed count is 28 with low density, currently within normal operational range. No immediate action required.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 28,
+        "deviation_percent": 16.828929068150217,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 5.06,
+      "frame": 253,
+      "count": 28,
+      "llm": "Patrol in Shibuya Crossing observed a count of 28 individuals with low density, remaining within the normal range without deviations requiring immediate action.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 28,
+        "deviation_percent": 16.828929068150217,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 5.08,
+      "frame": 254,
+      "count": 28,
+      "llm": "Shibuya Crossing observed with 28 individuals; density remains low, with activity within normal operational parameters.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 28,
+        "deviation_percent": 16.828929068150217,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 5.1,
+      "frame": 255,
+      "count": 29,
+      "llm": "Shibuya Crossing patrol observed 29 individuals with low density, and activity remains within normal operational parameters.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 29,
+        "deviation_percent": 21.001390820584152,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 5.12,
+      "frame": 256,
+      "count": 30,
+      "llm": "Shibuya Crossing observed count of 30 indicates low density with a moderate deviation above normal; recommend continued monitoring for anomalies.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 30,
+        "deviation_percent": 25.17385257301809,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 5.14,
+      "frame": 257,
+      "count": 30,
+      "llm": "Patrol team observed 30 individuals at Shibuya Crossing, indicating low density but a moderate deviation above normal activity levels.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 30,
+        "deviation_percent": 25.17385257301809,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 5.16,
+      "frame": 258,
+      "count": 31,
+      "llm": "Shibuya Crossing observed with 31 individuals, indicating low density and a moderately above normal deviation; recommend continued monitoring for potential crowd build-up.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 31,
+        "deviation_percent": 29.346314325452028,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 5.18,
+      "frame": 259,
+      "count": 27,
+      "llm": "Shibuya Crossing observed count is 27 with low density, showing no significant deviation from the normal range.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 5.2,
+      "frame": 260,
+      "count": 27,
+      "llm": "Shibuya Crossing observed 27 individuals with low density, remaining within normal operational parameters. No immediate action required.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 5.22,
+      "frame": 261,
+      "count": 27,
+      "llm": "Shibuya Crossing observed count of 27 indicates low density, with the deviation remaining within the normal operational range.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 5.24,
+      "frame": 262,
+      "count": 27,
+      "llm": "Shibuya Crossing observed count is 27 with low density, and activity is within normal range; no anomalies detected.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 5.32,
+      "frame": 266,
+      "count": 27,
+      "llm": "Shibuya Crossing observed count is 27 with low density, operating within normal parameters; no deviations noted.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 5.5,
+      "frame": 275,
+      "count": 32,
+      "llm": "Shibuya Crossing observed count of 32 indicates a moderately above-normal density, suggesting increased activity; maintain heightened vigilance and operational readiness in the area.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 32,
+        "deviation_percent": 33.51877607788597,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 5.52,
+      "frame": 276,
+      "count": 32,
+      "llm": "Shibuya Crossing observed count of 32 indicates medium density with a moderate deviation above normal; recommend continued monitoring for crowd management.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 32,
+        "deviation_percent": 33.51877607788597,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 5.54,
+      "frame": 277,
+      "count": 32,
+      "llm": "Shibuya Crossing observed count of 32 indicates low density but remains moderately above normal expectations; recommend continued monitoring for potential trends or anomalies.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 32,
+        "deviation_percent": 33.51877607788597,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 5.56,
+      "frame": 278,
+      "count": 31,
+      "llm": "Shibuya Crossing observed a count of 31 individuals with low density, showing a moderate deviation above normal activity.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 31,
+        "deviation_percent": 29.346314325452028,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 5.58,
+      "frame": 279,
+      "count": 29,
+      "llm": "Shibuya Crossing observed a low-density count of 29 pedestrians, with activity remaining within the normal range.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 29,
+        "deviation_percent": 21.001390820584152,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 5.6,
+      "frame": 280,
+      "count": 29,
+      "llm": "Shibuya Crossing observed count is 29 with low density, and deviation is within normal range; no anomalies detected.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 29,
+        "deviation_percent": 21.001390820584152,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 5.62,
+      "frame": 281,
+      "count": 29,
+      "llm": "Shibuya Crossing observed count is 29 with low density, and the deviation is within normal range; no immediate action required.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 29,
+        "deviation_percent": 21.001390820584152,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 5.64,
+      "frame": 282,
+      "count": 29,
+      "llm": "Shibuya Crossing observed count is 29 with low density, and activity is within normal range.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 29,
+        "deviation_percent": 21.001390820584152,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 5.66,
+      "frame": 283,
+      "count": 31,
+      "llm": "Shibuya Crossing observed count of 31 indicates low density with a moderate deviation above normal; recommend routine monitoring to assess any emerging patterns.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 31,
+        "deviation_percent": 29.346314325452028,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 5.68,
+      "frame": 284,
+      "count": 31,
+      "llm": "The Shibuya Crossing observed count of 31 indicates low density with a moderate deviation above normal, requiring continued monitoring for operational readiness.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 31,
+        "deviation_percent": 29.346314325452028,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 5.7,
+      "frame": 285,
+      "count": 31,
+      "llm": "Shibuya Crossing observed count of 31 indicates low density with a moderately above-normal deviation, suggesting slightly elevated activity for this zone.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 31,
+        "deviation_percent": 29.346314325452028,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 5.72,
+      "frame": 286,
+      "count": 30,
+      "llm": "Shibuya Crossing observed count of 30 indicates low density, moderately above normal deviation, suggesting a slightly busier than usual activity level; recommend continued monitoring to assess trends.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 30,
+        "deviation_percent": 25.17385257301809,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 5.74,
+      "frame": 287,
+      "count": 27,
+      "llm": "Shibuya Crossing observed with a count of 27 individuals, indicating low density, and deviations remain within normal operational parameters.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 5.76,
+      "frame": 288,
+      "count": 27,
+      "llm": "Shibuya Crossing observed count is 27 with low density, and activity is within normal range; no anomalies detected.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 5.78,
+      "frame": 289,
+      "count": 27,
+      "llm": "Shibuya Crossing observed count is 27 with low density, and the deviation is within normal range; no anomalies detected.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 5.8,
+      "frame": 290,
+      "count": 27,
+      "llm": "\"Patrol observed 27 individuals at Shibuya Crossing, with low density and activity within normal range. No deviations or concerns to report.\"",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 5.9,
+      "frame": 295,
+      "count": 27,
+      "llm": "\"Patrol observed 27 individuals at Shibuya Crossing, with low density and activity within normal range. No deviations or issues to report.\"",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 5.92,
+      "frame": 296,
+      "count": 27,
+      "llm": "Shibuya Crossing observed 27 individuals with low density, all within normal operational range; no deviations noted.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 5.94,
+      "frame": 297,
+      "count": 27,
+      "llm": "Shibuya Crossing observed count is 27 with low density, remaining within the normal range; no significant deviations or issues noted at this time.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 5.96,
+      "frame": 298,
+      "count": 27,
+      "llm": "Shibuya Crossing observed count is 27 with low density, and activity is within normal range; no deviations detected.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 5.98,
+      "frame": 299,
+      "count": 27,
+      "llm": "Shibuya Crossing observed count is 27 with low density, showing no deviations and remaining within the normal operational range.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 6.0,
+      "frame": 300,
+      "count": 28,
+      "llm": "Shibuya Crossing observed 28 individuals with low density; activity remains within normal operational parameters.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 28,
+        "deviation_percent": 16.828929068150217,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 6.02,
+      "frame": 301,
+      "count": 28,
+      "llm": "\"Patrol observed 28 individuals at Shibuya Crossing, with low density and no deviations outside normal range. Situation is stable and under control.\"",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 28,
+        "deviation_percent": 16.828929068150217,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 6.04,
+      "frame": 302,
+      "count": 28,
+      "llm": "\"Patrol observed 28 individuals at Shibuya Crossing, with low density and activity within normal range. No deviations or issues to report.\"",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 28,
+        "deviation_percent": 16.828929068150217,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 6.06,
+      "frame": 303,
+      "count": 30,
+      "llm": "\"Patrol observed 30 individuals at Shibuya Crossing, indicating low density but moderately above normal deviation; recommend monitoring for any unusual activity.\"",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 30,
+        "deviation_percent": 25.17385257301809,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 6.08,
+      "frame": 304,
+      "count": 30,
+      "llm": "Shibuya Crossing observed a count of 30 individuals with low density, showing a moderately above-normal deviation; recommend monitoring for potential shifts in activity.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 30,
+        "deviation_percent": 25.17385257301809,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 6.1,
+      "frame": 305,
+      "count": 30,
+      "llm": "Shibuya Crossing observed 30 individuals with low density, moderately above the normal count; recommend continued monitoring for potential shifts in activity.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 30,
+        "deviation_percent": 25.17385257301809,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 6.12,
+      "frame": 306,
+      "count": 30,
+      "llm": "Shibuya Crossing observed count of 30 indicates low density but is moderately above normal; recommend continued monitoring for potential deviations.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 30,
+        "deviation_percent": 25.17385257301809,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 6.2,
+      "frame": 310,
+      "count": 27,
+      "llm": "Shibuya Crossing observed count is 27 with low density, all within normal operational parameters.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 7.18,
+      "frame": 359,
+      "count": 28,
+      "llm": "Shibuya Crossing observed count of 28 indicates medium density, with deviation within normal range; no anomalies or operational concerns reported.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 28,
+        "deviation_percent": 16.828929068150217,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 7.2,
+      "frame": 360,
+      "count": 28,
+      "llm": "Shibuya Crossing observed count of 28 indicates low density with activity within normal range; no deviations or issues reported.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 28,
+        "deviation_percent": 16.828929068150217,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 7.22,
+      "frame": 361,
+      "count": 28,
+      "llm": "Shibuya Crossing observed count is 28 with low density, and activity is within normal range; no anomalies detected.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 28,
+        "deviation_percent": 16.828929068150217,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 7.24,
+      "frame": 362,
+      "count": 28,
+      "llm": "Shibuya Crossing observed count is 28 with low density, showing activity within normal range.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 28,
+        "deviation_percent": 16.828929068150217,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 7.26,
+      "frame": 363,
+      "count": 27,
+      "llm": "Shibuya Crossing observed count is 27 with low density and deviations within normal range; no immediate concerns reported.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 7.28,
+      "frame": 364,
+      "count": 27,
+      "llm": "Shibuya Crossing observed with a count of 27 individuals; density is low, and activity remains within normal operational parameters.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 7.3,
+      "frame": 365,
+      "count": 27,
+      "llm": "Shibuya Crossing observed 27 individuals with low density, and the deviation remains within normal operational parameters.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 7.32,
+      "frame": 366,
+      "count": 27,
+      "llm": "Shibuya Crossing observed count is 27 with low density, and activity is within normal range; no anomalies detected.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 7.34,
+      "frame": 367,
+      "count": 28,
+      "llm": "Shibuya Crossing observed count is 28 with low density, operating within normal parameters; no deviations detected.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 28,
+        "deviation_percent": 16.828929068150217,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 7.36,
+      "frame": 368,
+      "count": 28,
+      "llm": "The observed count of 28 at Shibuya Crossing indicates low density, with no deviation from the normal range.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 28,
+        "deviation_percent": 16.828929068150217,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 7.38,
+      "frame": 369,
+      "count": 28,
+      "llm": "Shibuya Crossing observed a typical low-density pedestrian count of 28, with activity within the expected normal range.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 28,
+        "deviation_percent": 16.828929068150217,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 7.4,
+      "frame": 370,
+      "count": 27,
+      "llm": "Shibuya Crossing observed count of 27 indicates low density with deviation within normal range; no operational concerns noted.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 7.5,
+      "frame": 375,
+      "count": 30,
+      "llm": "Shibuya Crossing observed count is 30 with low density, currently running moderately above normal levels.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 30,
+        "deviation_percent": 25.17385257301809,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 7.52,
+      "frame": 376,
+      "count": 30,
+      "llm": "Shibuya Crossing observed count of 30 is moderately above normal with low density; recommend monitoring for any potential escalation or unusual activity.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 30,
+        "deviation_percent": 25.17385257301809,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 7.54,
+      "frame": 377,
+      "count": 30,
+      "llm": "\"At Shibuya Crossing, observed count is 30 with low density, currently running moderately above normal levels. No immediate concerns, but monitoring recommended for any further deviations.\"",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 30,
+        "deviation_percent": 25.17385257301809,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 7.56,
+      "frame": 378,
+      "count": 31,
+      "llm": "Shibuya Crossing observed pedestrian count of 31, indicating low density but moderately above normal deviation; recommend monitoring for potential crowd fluctuations or events.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 31,
+        "deviation_percent": 29.346314325452028,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 7.58,
+      "frame": 379,
+      "count": 30,
+      "llm": "\"At Shibuya Crossing, observed count is 30 with low density, currently running moderately above normal levels. No immediate issues noted, but monitoring is recommended due to the deviation.\"",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 30,
+        "deviation_percent": 25.17385257301809,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 7.6,
+      "frame": 380,
+      "count": 30,
+      "llm": "Shibuya Crossing observed with 30 individuals, indicating low density but moderately above normal deviation; recommend continued monitoring for potential shifts in activity.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 30,
+        "deviation_percent": 25.17385257301809,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 7.62,
+      "frame": 381,
+      "count": 30,
+      "llm": "Shibuya Crossing observed count of 30 indicates low density but is moderately above normal; monitor for potential crowd buildup and maintain situational awareness.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 30,
+        "deviation_percent": 25.17385257301809,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 7.64,
+      "frame": 382,
+      "count": 30,
+      "llm": "Shibuya Crossing observed 30 individuals with low density, indicating a moderate deviation above normal; recommend continued monitoring for potential crowd control needs.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 30,
+        "deviation_percent": 25.17385257301809,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 7.98,
+      "frame": 399,
+      "count": 27,
+      "llm": "Shibuya Crossing observed count of 27 indicates low density, with deviation remaining within normal operational range; no immediate action required.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 8.0,
+      "frame": 400,
+      "count": 27,
+      "llm": "Shibuya Crossing observed count of 27 individuals indicates low density, with no significant deviation from normal operational parameters.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 8.02,
+      "frame": 401,
+      "count": 27,
+      "llm": "Shibuya Crossing observed count is 27 with low density; activity remains within normal operational range.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 8.04,
+      "frame": 402,
+      "count": 27,
+      "llm": "\"Patrol observed 27 individuals at Shibuya Crossing, density remains low. Activity is within normal range, no deviations detected.\"",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 8.62,
+      "frame": 431,
+      "count": 27,
+      "llm": "Shibuya Crossing observed count is 27 with low density, and activity is within normal range; no deviations or concerns noted.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 8.64,
+      "frame": 432,
+      "count": 27,
+      "llm": "Shibuya Crossing observed count is 27, with low density and activity within normal range; no deviations or incidents reported.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 8.66,
+      "frame": 433,
+      "count": 27,
+      "llm": "\"Patrol observed 27 individuals at Shibuya Crossing, with low density and activity within normal range. No deviations or issues to report.\"",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 8.68,
+      "frame": 434,
+      "count": 27,
+      "llm": "Shibuya Crossing observed count is 27 with low density, and deviations are within normal range; no operational concerns noted.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 9.1,
+      "frame": 455,
+      "count": 27,
+      "llm": "Shibuya Crossing observed count of 27 individuals indicates medium density, with activity levels remaining within normal operational range.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 9.12,
+      "frame": 456,
+      "count": 27,
+      "llm": "Shibuya Crossing observed count of 27 indicates low density, with deviation within normal range; no operational concerns noted.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 9.58,
+      "frame": 479,
+      "count": 27,
+      "llm": "Shibuya Crossing observed a medium-density pedestrian count of 27, with activity deviating within normal operational parameters.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 9.6,
+      "frame": 480,
+      "count": 27,
+      "llm": "Shibuya Crossing observed count is 27 with low density, and all metrics are within normal range for this shift.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 9.62,
+      "frame": 481,
+      "count": 27,
+      "llm": "Shibuya Crossing observed 27 individuals with low density, and the deviation remains within normal operational range.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 9.64,
+      "frame": 482,
+      "count": 27,
+      "llm": "Shibuya Crossing observed count of 27 indicates low density with no deviations from normal operational parameters.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 9.74,
+      "frame": 487,
+      "count": 28,
+      "llm": "Shibuya Crossing observed count is 28 with low density and deviation within normal range; conditions appear stable and routine.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 28,
+        "deviation_percent": 16.828929068150217,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 9.76,
+      "frame": 488,
+      "count": 28,
+      "llm": "Shibuya Crossing observed count is 28 with low density, remaining within normal operational range.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 28,
+        "deviation_percent": 16.828929068150217,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 9.78,
+      "frame": 489,
+      "count": 28,
+      "llm": "Shibuya Crossing observed count is 28 with low density, and activity is within normal range; no deviations or issues to report.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 28,
+        "deviation_percent": 16.828929068150217,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 9.8,
+      "frame": 490,
+      "count": 28,
+      "llm": "Shibuya Crossing observed with 28 individuals, indicating low density; activity remains within normal operational parameters.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 28,
+        "deviation_percent": 16.828929068150217,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 18.3,
+      "frame": 915,
+      "count": 27,
+      "llm": "Shibuya Crossing observed count is 27 with medium density, and deviation is within normal range; no anomalies detected.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 18.32,
+      "frame": 916,
+      "count": 27,
+      "llm": "Shibuya Crossing observed count is 27 with medium density, and all metrics are within normal operational range.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 18.34,
+      "frame": 917,
+      "count": 27,
+      "llm": "Shibuya Crossing observed count of 27 aligns with medium density and remains within normal range; no deviations or unusual activity reported.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 18.36,
+      "frame": 918,
+      "count": 27,
+      "llm": "Shibuya Crossing observed count is 27 with medium density, currently within normal operational range. No immediate action required.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 21.18,
+      "frame": 1059,
+      "count": 28,
+      "llm": "Shibuya Crossing observed 28 individuals with medium density, showing a moderately above-normal deviation in activity levels.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 28,
+        "deviation_percent": 16.828929068150217,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 21.2,
+      "frame": 1060,
+      "count": 28,
+      "llm": "Shibuya Crossing observed a pedestrian count of 28 with medium density, showing a moderate deviation above normal; recommend monitoring for potential crowd control measures if trend persists.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 28,
+        "deviation_percent": 16.828929068150217,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 21.22,
+      "frame": 1061,
+      "count": 27,
+      "llm": "Shibuya Crossing observed count of 27 indicates a medium density, moderately above normal deviation; recommend monitoring for crowd control and safety.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 21.24,
+      "frame": 1062,
+      "count": 28,
+      "llm": "Shibuya Crossing observed a moderately above normal pedestrian count of 28 with medium density, warranting continued monitoring for safety and flow management.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 28,
+        "deviation_percent": 16.828929068150217,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 21.26,
+      "frame": 1063,
+      "count": 29,
+      "llm": "Shibuya Crossing observed a moderately above-normal pedestrian count of 29 with medium density, requiring continued monitoring to ensure smooth operations.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 29,
+        "deviation_percent": 21.001390820584152,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 21.28,
+      "frame": 1064,
+      "count": 29,
+      "llm": "Shibuya Crossing observed count is 29 with low density, showing a moderate deviation above normal, which may require closer monitoring for operational readiness.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 29,
+        "deviation_percent": 21.001390820584152,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 21.3,
+      "frame": 1065,
+      "count": 29,
+      "llm": "Shibuya Crossing observed count of 29 indicates low density but is moderately above normal; recommend monitoring for potential crowd buildup.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 29,
+        "deviation_percent": 21.001390820584152,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 21.32,
+      "frame": 1066,
+      "count": 29,
+      "llm": "Shibuya Crossing observed count is 29 with low density, showing a moderate deviation above normal; no immediate concerns but warrants continued monitoring.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 29,
+        "deviation_percent": 21.001390820584152,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 24.14,
+      "frame": 1207,
+      "count": 31,
+      "llm": "Shibuya Crossing observed a count of 31 individuals with medium density, showing a moderately above-normal deviation; recommend monitoring for potential crowd management needs.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 31,
+        "deviation_percent": 29.346314325452028,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 24.16,
+      "frame": 1208,
+      "count": 31,
+      "llm": "Shibuya Crossing observed 31 individuals with medium density, moderately above normal; maintain vigilant monitoring for potential operational adjustments.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 31,
+        "deviation_percent": 29.346314325452028,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 24.18,
+      "frame": 1209,
+      "count": 31,
+      "llm": "Shibuya Crossing observed a pedestrian count of 31 with medium density, registering moderately above normal deviation for this timeframe.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 31,
+        "deviation_percent": 29.346314325452028,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 24.2,
+      "frame": 1210,
+      "count": 31,
+      "llm": "Shibuya Crossing observed count of 31 indicates medium density, moderately above normal; recommend monitoring for potential crowd control needs.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 31,
+        "deviation_percent": 29.346314325452028,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 42.1,
+      "frame": 2105,
+      "count": 27,
+      "llm": "Shibuya Crossing observed 27 individuals with low density, showing a moderate deviation above normal; no immediate concerns but warrants continued monitoring.",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 42.12,
+      "frame": 2106,
+      "count": 27,
+      "llm": "\"Patrol observed 27 individuals at Shibuya Crossing, with low density and activity moderately above normal. No immediate concerns, but recommend continued monitoring for any changes.\"",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 56.7,
+      "frame": 2835,
+      "count": 28,
+      "llm": "Error 402",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 28,
+        "deviation_percent": 16.828929068150217,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 56.72,
+      "frame": 2836,
+      "count": 28,
+      "llm": "Error 402",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 28,
+        "deviation_percent": 16.828929068150217,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 56.74,
+      "frame": 2837,
+      "count": 30,
+      "llm": "Error 402",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 30,
+        "deviation_percent": 25.17385257301809,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 56.76,
+      "frame": 2838,
+      "count": 29,
+      "llm": "Error 402",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 29,
+        "deviation_percent": 21.001390820584152,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 57.42,
+      "frame": 2871,
+      "count": 27,
+      "llm": "Error 402",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 57.44,
+      "frame": 2872,
+      "count": 27,
+      "llm": "Error 402",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 57.46,
+      "frame": 2873,
+      "count": 27,
+      "llm": "Error 402",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 57.48,
+      "frame": 2874,
+      "count": 27,
+      "llm": "Error 402",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 57.58,
+      "frame": 2879,
+      "count": 27,
+      "llm": "Error 402",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 57.62,
+      "frame": 2881,
+      "count": 27,
+      "llm": "Error 402",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 57.74,
+      "frame": 2887,
+      "count": 28,
+      "llm": "Error 402",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 28,
+        "deviation_percent": 16.828929068150217,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 57.76,
+      "frame": 2888,
+      "count": 28,
+      "llm": "Error 402",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 28,
+        "deviation_percent": 16.828929068150217,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 57.78,
+      "frame": 2889,
+      "count": 27,
+      "llm": "Error 402",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 27,
+        "deviation_percent": 12.65646731571628,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 57.8,
+      "frame": 2890,
+      "count": 29,
+      "llm": "Error 402",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 29,
+        "deviation_percent": 21.001390820584152,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 57.82,
+      "frame": 2891,
+      "count": 28,
+      "llm": "Error 402",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 28,
+        "deviation_percent": 16.828929068150217,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 57.84,
+      "frame": 2892,
+      "count": 28,
+      "llm": "Error 402",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 28,
+        "deviation_percent": 16.828929068150217,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 57.86,
+      "frame": 2893,
+      "count": 28,
+      "llm": "Error 402",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 28,
+        "deviation_percent": 16.828929068150217,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 57.88,
+      "frame": 2894,
+      "count": 29,
+      "llm": "Error 402",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 29,
+        "deviation_percent": 21.001390820584152,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 57.9,
+      "frame": 2895,
+      "count": 30,
+      "llm": "Error 402",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 30,
+        "deviation_percent": 25.17385257301809,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 57.92,
+      "frame": 2896,
+      "count": 30,
+      "llm": "Error 402",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 30,
+        "deviation_percent": 25.17385257301809,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 57.94,
+      "frame": 2897,
+      "count": 30,
+      "llm": "Error 402",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 30,
+        "deviation_percent": 25.17385257301809,
+        "baseline_source": "first 30 frames of video"
+      }
+    },
+    {
+      "timestamp": 57.96,
+      "frame": 2898,
+      "count": 30,
+      "llm": "Error 402",
+      "pattern": {
+        "avg_people": 23.966666666666665,
+        "peak_people": 27,
+        "current_people": 30,
+        "deviation_percent": 25.17385257301809,
+        "baseline_source": "first 30 frames of video"
+      }
+    }
+  ],
+  "processed": "2026-01-21T11:08:12.261611"
+}
