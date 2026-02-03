@@ -1,4 +1,4 @@
-# CrowdSpot - Video Extension: Crowd Intelligence System
+# CrowdSpot - Video Extension: Crowd Intelligence System (Modified Version)
 
 ## What Was Modified
 
